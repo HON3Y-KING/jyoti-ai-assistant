@@ -1,0 +1,15 @@
+{
+  "name": "jyoti-proxy-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal reference backend that holds the AI provider key server-side and proxies chat requests for the Jyoti Android app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "express-rate-limit": "^7.4.0"
+  }
+}

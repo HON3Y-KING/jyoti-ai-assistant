@@ -1,0 +1,14 @@
+## Copy this file to "local.properties" (which is git-ignored) and fill in your values.
+sdk.dir=/path/to/your/Android/sdk
+
+## Base URL of YOUR backend proxy that holds the AI provider key server-side.
+## The Android app NEVER talks to Anthropic/OpenAI/etc directly and NEVER stores
+## a provider secret key. See /server-example for a minimal reference proxy.
+JYOTI_API_BASE_URL=https://your-proxy.example.com/
+
+## A per-install / per-user app token issued by YOUR OWN auth backend
+## (e.g. Firebase Auth, your login system). This is NOT the AI provider's key,
+## it just proves "this request came from a real install of the Jyoti app"
+## so your proxy can apply auth + rate limiting. Safe-ish to ship because it is
+## low-privilege and revocable/rotatable server-side — unlike a provider key.
+JYOTI_APP_AUTH_PLACEHOLDER=replace-with-real-token-strategy
