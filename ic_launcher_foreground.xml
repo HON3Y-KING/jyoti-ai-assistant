@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer neon ring (mic orb) -->
+    <path
+        android:pathData="M54,24 A30,30 0,1 0,54.01 24"
+        android:strokeColor="#39F5E2"
+        android:strokeWidth="4"
+        android:fillColor="#00000000" />
+
+    <!-- Mic body -->
+    <path
+        android:fillColor="#39F5E2"
+        android:pathData="M54,38 C58.42,38 62,41.58 62,46 L62,58 C62,62.42 58.42,66 54,66 C49.58,66 46,62.42 46,58 L46,46 C46,41.58 49.58,38 54,38 Z" />
+
+    <!-- Mic stand -->
+    <path
+        android:fillColor="#39F5E2"
+        android:strokeColor="#39F5E2"
+        android:strokeWidth="3"
+        android:pathData="M40,54 L40,58 C40,66.84 46.16,74 54,74 C61.84,74 68,66.84 68,58 L68,54" />
+
+    <!-- Mic base line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#39F5E2"
+        android:strokeWidth="3"
+        android:pathData="M54,74 L54,82 M46,82 L62,82" />
+</vector>

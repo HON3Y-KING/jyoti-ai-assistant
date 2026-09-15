@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep-space neon background fill -->
+    <path
+        android:fillColor="#0A0A14"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Soft violet glow, top-left -->
+    <path
+        android:fillColor="#338E5BFF"
+        android:pathData="M18,14 C40,4 70,10 86,30 C98,45 92,62 70,58 C48,54 30,50 18,38 C10,30 10,20 18,14 Z" />
+
+    <!-- Soft magenta glow, bottom-right -->
+    <path
+        android:fillColor="#26FF3DCB"
+        android:pathData="M90,94 C70,104 44,98 32,82 C24,71 32,58 52,62 C72,66 88,72 96,82 C100,88 96,90 90,94 Z" />
+</vector>
